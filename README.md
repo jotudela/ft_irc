@@ -40,7 +40,7 @@ In bonus part we just include a parrot bot, wich repeat what you send in a canal
 And operaors can activate or desactivate the bot with :
 | Command | Brief |
 |---------|-------|
-| `BOT ON` | Activate bot if he is DESACTIVARED |
+| `BOT ON` | Activate bot if he is DESACTIVATED |
 | `BOT OFF` | Desactivate bot if he is ACTIVATED |
 
 ## ⚙️ Usage
