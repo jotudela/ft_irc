@@ -86,6 +86,11 @@ actually you need to do this (in your new terminal):
 Now you can chat with the first operator !
 
 Here are representation of what you should have:
+<p align="center">
+  <img src="imgs/start.png" alt="start">
+  <img src="imgs/start_user.png" alt="start">
+  <img src="imgs/rename_discution.png" alt="start">
+</p>
 
 My final grade :
 
