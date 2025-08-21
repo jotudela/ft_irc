@@ -7,7 +7,7 @@ The goal is to understand how a network protocol works, manage multiple clients 
 
 ## 🛠️ Program Specificities and Considerations
 
-In this project a lot of things :  
+In this project, we need to develop a lot of things :  
 - Develop an IRC server in C++98.  
 - Don't need to develop a client.  
 - Don't need to manage server-to-server communication.  
@@ -27,6 +27,13 @@ In this project a lot of things :
       - `k`: Set/delete channel key (password)  
       - `o`: Grant/withdraw channel operator privilege  
       - `l`: Set/remove user limit for channel  
+
+and we need to manage `[Ctrl D](mandatory/src/Server.cpp)`, for example :
+```bash
+KI^DCK us^Der6
+```
+
+this command must works.
 
 ## ⚙️ Usage
 
