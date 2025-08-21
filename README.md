@@ -28,13 +28,28 @@ In this project, we need to develop a lot of things :
       - `o`: Grant/withdraw channel operator privilege  
       - `l`: Set/remove user limit for channel  
 
-and we need to manage `[Ctrl D](mandatory/src/Server.cpp)`, for example :
+and we need to manage `Ctrl D`, for example :
 ```bash
 KI^DCK us^Der6
 ```
 
 this command must works.
 
+In bonus part we just include a parrot bot, wich repeat what you send in a canal.
+
+And operaors can activate or desactivate the bot with :
+| Command | Brief |
+|---------|-------|
+| `BOT ON` | Activate bot if he is DESACTIVARED |
+| `BOT OFF` | Desactivate bot if he is ACTIVATED |
+
 ## ⚙️ Usage
+
+Start with cloning my repo :
+```bash
+git clone git@github.com:jotudela/ft_irc.git cd ft_irc
+```
+
+
 
 For test my program, the simple way is to use `netcat`, so 
